@@ -1,0 +1,38 @@
+h1 {
+    font-family: 'georgia';
+    color: cadetblue;
+}
+
+h2 {
+    font-family: "Ariel";
+    color: dimgrey;
+    font-size: 15px;
+    border-right: 1px; black
+}
+
+h3 {
+    font-family: "Ariel";
+    color: dimgrey;
+    font-size: 15px;
+    
+}
+h4 {
+    font-family: "Ariel";
+    color: dimgrey;
+    font-size: 15px;
+}
+
+h5 {
+    font-family: 'Georgia';
+    font-size: "24px";
+    color: cadetblue;
+}
+
+h6 {
+    font-family: "helvetica";
+    color: dimgrey;
+}
+
+body {
+    background-color: white
+}
