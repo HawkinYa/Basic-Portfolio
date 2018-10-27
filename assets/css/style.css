@@ -1,3 +1,12 @@
+img {
+     width: 200px;
+     margin-left: 400px;
+}
+
+body {
+    background-image: url("ep_naturalwhite.png");
+}
+
 h1 {
     font-family: 'georgia';
     color: cadetblue;
@@ -7,30 +16,33 @@ h2 {
     font-family: "Ariel";
     color: dimgrey;
     font-size: 15px;
-    border-right: 1px; black
+    text-align: right;
 }
 
 h3 {
     font-family: "Ariel";
     color: dimgrey;
     font-size: 15px;
+    text-align: right;
     
 }
 h4 {
     font-family: "Ariel";
     color: dimgrey;
     font-size: 15px;
+    text-align: right;
 }
 
 h5 {
     font-family: 'Georgia';
-    font-size: "24px";
+    font-size: 24px;
     color: cadetblue;
 }
 
 h6 {
     font-family: "helvetica";
     color: dimgrey;
+    font-size: 14px;
 }
 
 body {
