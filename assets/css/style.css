@@ -3,48 +3,47 @@ img {
      margin-left: 400px;
 }
 
+li {
+    text-align: right;
+    padding: 20px;
+    border-right-color: dimgrey;
+    border-right-style: outset;
+    float: right;
+    padding-right: 20px;
+}
+
 body {
     background-image: url("ep_naturalwhite.png");
 }
 
 h1 {
     font-family: 'georgia';
-    color: cadetblue;
+    color: white;
+    font-size: 40px;
+    width:28%;
+    padding: 20px;
+    margin-top: 0;
+    margin-left: 300px;
+    bottom: 20px;
+    background: cadetblue;
 }
 
 h2 {
-    font-family: "Ariel";
-    color: dimgrey;
-    font-size: 15px;
-    text-align: right;
-}
-
-h3 {
-    font-family: "Ariel";
-    color: dimgrey;
-    font-size: 15px;
-    text-align: right;
-    
-}
-h4 {
-    font-family: "Ariel";
-    color: dimgrey;
-    font-size: 15px;
-    text-align: right;
-}
-
-h5 {
-    font-family: 'Georgia';
-    font-size: 24px;
+    font-family: "Georgia";
     color: cadetblue;
+    font-size: 30px;
 }
 
-h6 {
-    font-family: "helvetica";
+p {
+    font-family: "Ariel";
     color: dimgrey;
-    font-size: 14px;
+    font-size: 25px;
+    margin: 25px;
 }
 
-body {
-    background-color: white
+.container1 {
+    background: white;
+    width: 960px;
+    height: 500px;
+    margin-left: 300px;    
 }
