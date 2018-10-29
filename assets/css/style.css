@@ -1,49 +1,98 @@
 img {
-     width: 200px;
-     margin-left: 400px;
+     width: 175px;
+     padding: 25px;
+     float:left;
 }
 
 li {
+    display: inline;
+    color: darkgray;
     text-align: right;
-    padding: 20px;
-    border-right-color: dimgrey;
-    border-right-style: outset;
-    float: right;
     padding-right: 20px;
+    list-style: none;
+    clear: both;
+}
+
+a { 
+    color: inherit; 
+}
+
+#list1 {
+    border-right: solid 1px darkgray;
+    margin-right: 20px;
+}
+
+#list2 {
+    border-right: solid 1px darkgray;
+    margin-right: 20px;
 }
 
 body {
     background-image: url("ep_naturalwhite.png");
+    margin:0;
 }
 
 h1 {
     font-family: 'georgia';
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     width:28%;
     padding: 20px;
-    margin-top: 0;
-    margin-left: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 279.5px;
     bottom: 20px;
     background: cadetblue;
+    
 }
 
 h2 {
     font-family: "Georgia";
     color: cadetblue;
-    font-size: 30px;
+    font-size: 25px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left: 20px;
+    border-bottom: solid 2px gainsboro;
 }
 
-p {
+#p1 {
     font-family: "Ariel";
     color: dimgrey;
-    font-size: 25px;
-    margin: 25px;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-left:25px;
+    margin-right:25px;
 }
 
+#p2 {
+    font-family: "Ariel";
+    color: dimgrey;
+    font-size: 24px;
+    margin-left:25px;
+    margin-right:25px;
+
+}
+
+#p3 {
+    font-family: "Ariel";
+    color: dimgrey;
+    font-size: 24px;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+
 .container1 {
+    background:white;
+    border-bottom: solid 2px gainsboro; 
+    padding: 20px;    
+}
+
+.container2 {
     background: white;
     width: 960px;
     height: 500px;
-    margin-left: 300px;    
+    margin-top: 30px;
+    margin-left: 279.5px;
 }
