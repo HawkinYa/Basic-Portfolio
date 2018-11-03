@@ -4,31 +4,33 @@ img {
      float: left;
 }
 
-div {
-    color: dimgray;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
 nav {
     text-align: right;
-
 }
 
 a { 
-    color: inherit; 
+    color: inherit;
+
+}
+li a {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
 }
 
-#list1 {
-    border-right: solid 1px darkgray;
-    margin-right: 15px;
-    padding;
+li {
+    list-style-type: none;
+    display: inline;
 }
 
-#list2 {
-    border-right: solid 1px darkgray;
-    margin-right: 15px;
+li+li {
+    border-left: 1px solid dimgray;
 }
+
+
 
 body {
     background-image: url("ep_naturalwhite.png");
@@ -92,6 +94,12 @@ div {
     background:white;
     border-bottom: solid 2px gainsboro; 
     padding: 0px;    
+}
+
+footer {
+    font-family: 'georgia';
+    background: cadetblue;
+    border-left: solid 279.5px white;
 }
 
 .container1 {

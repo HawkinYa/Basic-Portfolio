@@ -1,12 +1,71 @@
+img {
+    width: 175px;
+    padding: 20px;
+    float: left;
+}
+
+div {
+   color: dimgray;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+nav {
+   text-align: right;
+
+}
+
+a { 
+   color: inherit; 
+}
+
 body {
-    background-image: url("ep_naturalwhite.png");
-    margin:0;
+   background-image: url("ep_naturalwhite.png");
+   margin:0;
+}
+
+h1 {
+   font-family: 'georgia';
+   color: white;
+   font-size: 30px;
+   width:21%;
+   padding: 20px;
+   margin: 0px;
+   bottom: 20px;
+   background: cadetblue;
+   border-left: solid 279.5px white;
+   
+}
+
+h2 {
+   font-family: "Georgia";
+   color: cadetblue;
+   font-size: 25px;
+   padding-top:25px;
+   padding-bottom:25px;
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-bottom: solid 3px gainsboro;
+}
+
+.textbox {
+    margin-left: 20px;
+    padding-left: 20px;
+    
+}
+
+div {
+   background:white;
+   border-bottom: solid 2px gainsboro; 
+   padding: 0px;    
 }
 
 .container1 {
-    background: white;
-    width: 960px;
-    height: 560px;
-    margin-top: 30px;
-    margin-left: 279.5px;
+   background: white;
+   width: 960px;
+   height: 560px;
+   margin-top: 30px;
+   margin-left: 279.5px;
 }
