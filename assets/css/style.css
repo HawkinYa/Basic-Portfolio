@@ -10,15 +10,15 @@ nav {
 
 a { 
     color: inherit;
-
+    float: left;
 }
+
 li a {
     text-decoration: none;
     color: dimgray;
     font-size: 18px;
     padding-right: 10px;
-    padding-left: 10px;
-    
+    padding-left: 10px;   
 }
 
 li {
@@ -98,14 +98,18 @@ div {
 
 footer {
     font-family: 'georgia';
-    background: cadetblue;
-    border-left: solid 279.5px white;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: dimgray;
+    border-top: 5px solid cadetblue;
 }
 
 .container1 {
     background: white;
     width: 960px;
     height: 560px;
-    margin-top: 30px;
-    margin-left: 279.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 279.5px;   
 }

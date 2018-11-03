@@ -1,0 +1,8 @@
+footer {
+    font-family: 'georgia';
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: cadetblue;
+    border-top: 2px solid dimgray;
+}
